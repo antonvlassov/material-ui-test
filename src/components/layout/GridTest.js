@@ -66,7 +66,9 @@ import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/sty
  *                   (itens dentro do Grid não são afetados por esses comandos)
  *               *** para alinhar elemento DENTRO do GridItem, aplicar o style direto no GridItem
  *                   style={{ textAlign: 'center' }} <== depende do elemento que está dentro, ver CSS 
- * 
+ * Hidden com GRID
+ *  - esconde componentes envolvidos com Hidden, quando a tela fica menor que um certo tamanho
+ *  
  */
 
 

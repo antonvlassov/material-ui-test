@@ -76,6 +76,9 @@ function SimpleTest(props) {
     const condClasses = conditionalStyles1(props);
     const condClasses2 = conditionalStyles2(props);
     const themedClasses = stylesWithTheme();
+
+    const theme = useTheme();
+
     return (
         <>
             <Button className={classes.buttonStyle}>Small Button</Button>
